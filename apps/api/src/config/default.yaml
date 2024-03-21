@@ -1,0 +1,15 @@
+http:
+  port: 8086
+  host: 0.0.0.0
+  base_path: "/api/nats-gateway"
+log:
+  level: INFO
+s3:
+  access_key: rBiBMQvS89v1yaSTKmW2
+  secret_key: LxkXss1W17wb2CV9BeQEafOl2qd3xM8FNo2pqzQ0
+  bucket: dev
+  region: us-east-1
+  host: 127.0.0.1
+  port: 9000
+temporal:
+  host_port: "localhost:4000"
